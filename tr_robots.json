@@ -1,0 +1,36 @@
+[
+  {
+    "tiker": "RRC",
+    "balance": 100,
+    "strategyName": "Trend monster bars",
+    "useSandbox": false,
+    "useShadowMode": false,
+    "limitsOrdersOnly": false,
+    "tradingDeals": [
+      {
+        "mskDateTime": "",
+        "orderType": "buy",
+        "positionsCount": 0.9,
+        "positionsPrice": 9,
+        "balanceBeforeTransaction": 2000
+      }
+    ]
+  },
+  {
+    "tiker": "TSLA",
+    "balance": 2000,
+    "strategyName": "Trend monster bars",
+    "useSandbox": true,
+    "useShadowMode": false,
+    "limitsOrdersOnly": false,
+    "tradingDeals": [
+      {
+        "mskDateTime": "",
+        "orderType": "buy",
+        "positionsCount": 0.9,
+        "positionsPrice": 9,
+        "balanceBeforeTransaction": 2000
+      }
+    ]
+  }
+]
