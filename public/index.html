@@ -1,14 +1,9 @@
-<html>
-
-<head>
-  <title>Index</title>
-  <link rel="stylesheet" href="/stylesheets/style.css">
-</head>
-
+<script>
+  async function ExecuteTest() {await fetch("/strategy_signal_execute", {method: 'POST', mode: 'cors', cache: 'no-cache', credentials: 'same-origin', headers: {'Content-Type': 'application/json'}, redirect: 'follow', body: JSON.stringify({"tikr":"RRC","order":(Boolean(Math.round(Math.random()))?"buy":"sell"),"pC":Math.round(Math.random()*10),"pR":10.93})});}
+</script>
 <body>
   <h1>Index</h1>
   <p>Welcome to Control Panel</p>
   <a href="/robots">Go to robots</a>
+  <button onclick="ExecuteTest()">Run Signal Execute Test</button>
 </body>
-
-</html>

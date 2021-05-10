@@ -12,7 +12,7 @@ const secretToken = 'xxx'; // токен для сандбокса
 const api = new OpenAPI({ apiURL, secretToken, socketURL });
 
 
-router.post('/strategy_signal_execute', async (req, res) =>
+router.post('/', async (req, res) =>
 {
     const body =await  req.body.json();
 
